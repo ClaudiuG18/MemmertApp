@@ -1,0 +1,16 @@
+{
+  "name": "memmertapp",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "index.js",
+  "scripts": {
+    "dev": "index.js"
+  },
+  "author": "ghise",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.2"
+  }
+}
