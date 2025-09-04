@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+const parametersSchema = new mongoose.Schema({});
 const deviceSchema = new mongoose.Schema({
   serialNum: {
     type: String,
@@ -23,5 +24,5 @@ const deviceSchema = new mongoose.Schema({
   },
 });
 
-const MemmertDevice = mongoose.model("MemmertDevice", "deviceSchema");
+const MemmertDevice = mongoose.model("MemmertDevice", deviceSchema);
 module.exports = MemmertDevice;

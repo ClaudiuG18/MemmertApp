@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const mongoose = require("mongoose");
+const MemmertDevice = require("./models/device");
 
 mongoose
   .connect("mongodb://localhost:27017/test")
